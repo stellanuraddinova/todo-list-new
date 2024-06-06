@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="m-auto mt-[10px] w-[390px]">
+        <div class="w-[390px] flex justify-between items-center border">
+            <input id="taskAdd" class="outline-none p-[7px] grow" type="text">
+            <button id="btnAdd" class="w-[40px] text-white bg-green-300 h-[40px]">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+        <div class="flex justify-between items-center my-[15px]">
+            <button class=" w-[124px] py-[6px] rounded-lg bg-[#8F8F8F] border text-white">All</button>
+            <button class=" w-[124px] py-[6px] rounded-lg border text-[##5C5C5C]">Complated</button>
+            <button class=" w-[124px] py-[6px] rounded-lg border text-[##5C5C5C]">Pending</button>
+        </div>
+        <ul id="list">
+        </ul>
+    </div>
+
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
